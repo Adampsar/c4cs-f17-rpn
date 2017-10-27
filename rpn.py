@@ -17,6 +17,7 @@ def calculate(string):
 				function = ops[token]
 				result = function(arg1,arg2)
 				stack.append(result)
+	print(stack.pop())
 	return(stack.pop())
 
 def main():
