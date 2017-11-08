@@ -1,4 +1,6 @@
 language: python
+service_name: travis-pro
+repo_token: ccXM11WfNsWjZ9O8eGNQLLFq0kLJV5ijU
 python:
   - "3.5"
 script: make
