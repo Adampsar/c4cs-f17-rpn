@@ -1,1 +1,2 @@
 [![Coverage Status](https://coveralls.io/repos/github/Adampsar/c4cs-f17-rpn/badge.svg?branch=master)](https://coveralls.io/github/Adampsar/c4cs-f17-rpn?branch=master)
+https://travis-ci.org/Adampsar/c4cs-f17-rpn.svg?branch=master
