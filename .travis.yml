@@ -1,7 +1,4 @@
 language: python
-install:
-	- pip install -r travis/requitments.txt
-	- pip install coveralls
 python:
   - "3.5"
 script: 
