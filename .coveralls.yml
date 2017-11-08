@@ -1,4 +1,0 @@
-service_name: travis-pro
-repo_token: ccXM11WfNsWjZ9O8eGNQLLFq0kLJV5ijU
-script: coverage run --source=rpn test_rpn.py
-after_success: coveralls
