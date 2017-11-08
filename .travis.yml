@@ -1,4 +1,7 @@
 language: python
 python:
   - "3.5"
-script: make
+script: 
+	- make
+	- coverage run test_rpn.py
+	- coveralls
