@@ -1,7 +1,3 @@
 language: python
 python:
   - "3.5"
-script: 
-	- make
-	- coverage run --source=home make
-after_success: coveralls
