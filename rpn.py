@@ -34,3 +34,8 @@ def main():
 if __name__ == '__main__':
     main()
 
+def UNTESTED(x):
+	y = x
+	x = x + y
+	if x is y:
+		y = 0
