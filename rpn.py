@@ -1,5 +1,6 @@
 import operator
 import readline
+from termcolor import colored
 
 operators = {
     '+': operator.add,
