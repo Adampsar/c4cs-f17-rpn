@@ -1,6 +1,11 @@
 language: python
 service_name: travis-pro
 repo_token: ccXM11WfNsWjZ9O8eGNQLLFq0kLJV5ijU
+install:
+	- pip install coveralls
 python:
   - "3.5"
-script: make
+script: 
+	-make
+	-coverage run --source=home make
+after_success: coveralls
