@@ -1,5 +1,13 @@
 import operator
 import readline 
+import logging
+import os
+
+try:
+	os.remove("example.log")
+	logging.basicConfig(filename='example.log',level=logging.DEBUG)
+except opps:
+	logging.basicConfig(filename='example.log',level=logging.DEBUG)
 
 operators = {
     '+': operator.add,
@@ -21,7 +29,7 @@ def calculate(myarg):
             arg1 = stack.pop()
             result = function(arg1, arg2)
             stack.append(result)
-        print(stack)
+        logging.info(stack)
     if len(stack) != 1:
         raise TypeError("Too many parameters")
     return stack.pop()
@@ -35,6 +43,22 @@ if __name__ == '__main__':
     main()
 
 def UNTESTED(x):
+	y = x
+	x = x + y
+	if x is y:
+		y = 0
+	y = x
+	x = x + y
+	if x is y:
+		y = 0
+	y = x
+	x = x + y
+	if x is y:
+		y = 0
+	y = x
+	x = x + y
+	if x is y:
+		y = 0
 	y = x
 	x = x + y
 	if x is y:
